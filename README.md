@@ -11,48 +11,26 @@
 ### Emotion Distribution Visualization (Pie Chart):
 - Counted the occurrences of each emotion.
 - Created a pie chart to visualize the distribution of emotions.
-- Time-Series Visualization:
+### Time-Series Visualization:
+- Plotted a sample of EEG time-series data.
+### Spectral Analysis (Power Spectral Density):
+- Used Welch's method to calculate the power spectral density.
+- Plotted the power spectral density.
+### Correlation Heatmap:
+- Calculated the correlation matrix.
+- Visualized the correlation matrix using a heatmap.
+### t-SNE Visualization:
+- Applied t-distributed Stochastic Neighbor Embedding (t-SNE) for dimensionality reduction.
+- Visualized the data in a 2D scatter plot.
+### Feature Significance Analysis:
+- Performed t-tests to identify significant features for each emotion.
+- Visualized the number of significant and non-significant features for each emotion using a bar chart.
+### Advanced Preprocessing:
+- Normalized the data using z-score normalization.
+### Data Splitting:
+- Split the data into training and testing sets.
+### Neural Network Model Building:
+- Built a neural network model using TensorFlow and Keras.
+- Compiled the model with the Adam optimizer and sparse categorical crossentropy loss.
+### Confusion Matrix:
 
-Plotted a sample of EEG time-series data.
-Spectral Analysis (Power Spectral Density):
-
-Used Welch's method to calculate the power spectral density.
-Plotted the power spectral density.
-Correlation Heatmap:
-
-Calculated the correlation matrix.
-Visualized the correlation matrix using a heatmap.
-t-SNE Visualization:
-
-Applied t-distributed Stochastic Neighbor Embedding (t-SNE) for dimensionality reduction.
-Visualized the data in a 2D scatter plot.
-Feature Significance Analysis:
-
-Performed t-tests to identify significant features for each emotion.
-Visualized the number of significant and non-significant features for each emotion using a bar chart.
-Advanced Preprocessing:
-
-Normalized the data using z-score normalization.
-Data Splitting:
-
-Split the data into training and testing sets.
-Neural Network Model Building:
-
-Built a neural network model using TensorFlow and Keras.
-Model Compilation and Training:
-
-Compiled the model with the Adam optimizer and sparse categorical crossentropy loss.
-Trained the model using the training data.
-Model Evaluation:
-
-Evaluated the model on the test data and printed the accuracy.
-Making Predictions:
-
-Predicted the labels for the test data.
-Confusion Matrix and Classification Report:
-
-Generated and visualized the confusion matrix.
-Printed the classification report.
-EEG Signal Visualization:
-
-Printed the true and predicted emotion labels for a few random samples from the test data.
