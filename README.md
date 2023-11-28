@@ -32,6 +32,5 @@
 #### Neural Network Model Building:
 - Built a neural network model using TensorFlow and Keras.
 - Compiled the model with the Adam optimizer and sparse categorical crossentropy loss.
-![model_EEG](https://github.com/sudiptosuvro/EEG-emotion/assets/147235323/93404013-a362-4a2b-993c-6ecbc044bbf8)
 #### Confusion Matrix:
 ![confusion matrix](https://github.com/sudiptosuvro/EEG-emotion/assets/147235323/0e302f64-7a01-464e-aa9d-01362ba28752)
