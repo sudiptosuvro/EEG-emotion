@@ -34,4 +34,4 @@
 - Compiled the model with the Adam optimizer and sparse categorical crossentropy loss.
 ![model_EEG](https://github.com/sudiptosuvro/EEG-emotion/assets/147235323/93404013-a362-4a2b-993c-6ecbc044bbf8)
 #### Confusion Matrix:
-![confusion matrix](https://github.com/sudiptosuvro/EEG-emotion/assets/147235323/fa79e483-e96b-44c5-9457-9f47cb1f4d30)
+![confusion matrix](https://github.com/sudiptosuvro/EEG-emotion/assets/147235323/0e302f64-7a01-464e-aa9d-01362ba28752)
