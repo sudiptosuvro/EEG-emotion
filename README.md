@@ -1,1 +1,1 @@
-# EEG-emotion
+# EEG-based Emotion Classification using NN
