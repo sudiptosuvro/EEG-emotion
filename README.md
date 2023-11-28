@@ -2,35 +2,36 @@
 
 ## Steps for classification:
 
-### Data Loading and Exploration:
+#### Data Loading and Exploration:
 - Imported necessary libraries (NumPy, Pandas, Matplotlib, Seaborn, Plotly, SciPy, TensorFlow).
 - Loaded the emotion dataset from a CSV file ('emotions.csv').
 - Displayed the first 5 rows of the dataset.
-### Label Conversion:
+#### Label Conversion:
 - Converted textual emotion labels ('NEGATIVE', 'NEUTRAL', 'POSITIVE') to numerical values (0, 1, 2).
-### Emotion Distribution Visualization (Pie Chart):
+#### Emotion Distribution Visualization (Pie Chart):
 - Counted the occurrences of each emotion.
 - Created a pie chart to visualize the distribution of emotions.
-### Time-Series Visualization:
+#### Time-Series Visualization:
 - Plotted a sample of EEG time-series data.
-### Spectral Analysis (Power Spectral Density):
+#### Spectral Analysis (Power Spectral Density):
 - Used Welch's method to calculate the power spectral density.
 - Plotted the power spectral density.
-### Correlation Heatmap:
+#### Correlation Heatmap:
 - Calculated the correlation matrix.
 - Visualized the correlation matrix using a heatmap.
-### t-SNE Visualization:
+#### t-SNE Visualization:
 - Applied t-distributed Stochastic Neighbor Embedding (t-SNE) for dimensionality reduction.
 - Visualized the data in a 2D scatter plot.
-### Feature Significance Analysis:
+#### Feature Significance Analysis:
 - Performed t-tests to identify significant features for each emotion.
 - Visualized the number of significant and non-significant features for each emotion using a bar chart.
-### Advanced Preprocessing:
+#### Advanced Preprocessing:
 - Normalized the data using z-score normalization.
-### Data Splitting:
+#### Data Splitting:
 - Split the data into training and testing sets.
-### Neural Network Model Building:
+#### Neural Network Model Building:
 - Built a neural network model using TensorFlow and Keras.
 - Compiled the model with the Adam optimizer and sparse categorical crossentropy loss.
-### Confusion Matrix:
+![model_EEG](https://github.com/sudiptosuvro/EEG-emotion/assets/147235323/93404013-a362-4a2b-993c-6ecbc044bbf8)
+#### Confusion Matrix:
 
